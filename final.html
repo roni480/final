@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAVE $374 - Primary Maths Tutoring Term 1 Special | Canberra Tutoring</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        /* Brand Colors - Canberra Tutoring */
+        :root {
+            --primary-blue: #1e3a8a;
+            --accent-orange: #ff6600;
+            --light-bg: #f8fafc;
+            --dark-text: #1e293b;
+            --success-green: #16a34a;
+            --urgent-red: #dc2626;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background: var(--primary-blue);
+            color: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo {
+            font-size: 26px;
+            font-weight: bold;
+        }
+        
+        .trust-badge {
+            background: rgba(255,255,255,0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        
+        .header-cta {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        
+        .phone-number {
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .phone-number:hover {
+            color: var(--accent-orange);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, #2563eb 100%);
+            color: white;
+            padding: 70px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="2" fill="rgba(255,255,255,0.1)"/></svg>');
+            opacity: 0.3;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+        
+        .limited-badge {
+            display: inline-block;
+            background: var(--urgent-red);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 25px;
+            animation: pulse 2s infinite;
+            box-shadow: 0 4px 20px rgba(220, 38, 38, 0.4);
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.08); }
+        }
+        
+        h1 {
+            font-size: 56px;
+            margin-bottom: 25px;
+            line-height: 1.2;
+            font-weight: 800;
+        }
+        
+        .hero p {
+            font-size: 24px;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: var(--accent-orange);
+            color: white;
+            padding: 20px 45px;
+            font-size: 22px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 20px rgba(255, 102, 0, 0.5);
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .cta-button:hover {
+            background: #ff8533;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 102, 0, 0.6);
+        }
+        
+        .cta-button-secondary {
+            background: white;
+            color: var(--primary-blue);
+            margin-left: 15px;
+            text-transform: none;
+        }
+        
+        .cta-button-secondary:hover {
+            background: var(--light-bg);
+            color: var(--accent-orange);
+        }
+        
+        .hero-cta-group {
+            margin-bottom: 30px;
+        }
+        
+        .urgency-text {
+            font-size: 18px;
+            color: #fef3c7;
+            margin-top: 20px;
+            font-weight: 700;
+        }
+        
+        /* Value Proposition Box */
+        .value-box {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            margin: -50px auto 60px;
+            max-width: 950px;
+            position: relative;
+            z-index: 2;
+            box-shadow: 0 15px 50px rgba(0,0,0,0.2);
+            border: 4px solid var(--accent-orange);
+        }
+        
+        .value-comparison {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .value-item {
+            text-align: center;
+            padding: 25px;
+            background: var(--light-bg);
+            border-radius: 12px;
+            border: 2px solid #e2e8f0;
+        }
+        
+        .value-item h3 {
+            color: var(--primary-blue);
+            margin-bottom: 15px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        
+        .old-price {
+            text-decoration: line-through;
+            color: var(--urgent-red);
+            font-size: 32px;
+            margin-right: 10px;
+            font-weight: 600;
+        }
+        
+        .new-price {
+            color: var(--success-green);
+            font-size: 48px;
+            font-weight: 900;
+        }
+        
+        .savings-badge {
+            background: var(--success-green);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            display: inline-block;
+            margin-top: 15px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        
+        .total-value {
+            text-align: center;
+            padding: 35px;
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-radius: 12px;
+            border: 3px dashed var(--accent-orange);
+        }
+        
+        .total-value h2 {
+            color: var(--dark-text);
+            margin-bottom: 15px;
+            font-size: 32px;
+        }
+        
+        .total-value .huge-price {
+            font-size: 72px;
+            font-weight: 900;
+            color: var(--accent-orange);
+        }
+        
+        .total-value .normal-value {
+            font-size: 28px;
+            color: var(--urgent-red);
+            text-decoration: line-through;
+            margin-left: 20px;
+            font-weight: 600;
+        }
+        
+        /* Pricing Section */
+        .pricing {
+            padding: 80px 0;
+            background: var(--light-bg);
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .section-header h2 {
+            font-size: 48px;
+            color: var(--primary-blue);
+            margin-bottom: 15px;
+            font-weight: 800;
+        }
+        
+        .section-header p {
+            font-size: 22px;
+            color: #64748b;
+        }
+        
+        .pricing-card {
+            background: white;
+            border-radius: 16px;
+            padding: 50px;
+            max-width: 650px;
+            margin: 0 auto;
+            box-shadow: 0 15px 50px rgba(0,0,0,0.15);
+            border: 4px solid var(--accent-orange);
+            position: relative;
+        }
+        
+        .best-value-badge {
+            position: absolute;
+            top: -18px;
+            right: 30px;
+            background: var(--urgent-red);
+            color: white;
+            padding: 10px 30px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 16px;
+            box-shadow: 0 4px 15px rgba(220, 38, 38, 0.4);
+        }
+        
+        .pricing-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .pricing-header h3 {
+            font-size: 36px;
+            color: var(--primary-blue);
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+        
+        .price-display {
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .price-main {
+            font-size: 72px;
+            font-weight: 900;
+            color: var(--primary-blue);
+        }
+        
+        .price-detail {
+            font-size: 20px;
+            color: #64748b;
+            font-weight: 600;
+        }
+        
+        .pricing-comparison {
+            background: #fef3c7;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 30px 0;
+            text-align: center;
+            border: 2px solid var(--accent-orange);
+        }
+        
+        .pricing-comparison p {
+            margin: 8px 0;
+            font-size: 17px;
+        }
+        
+        .feature-list {
+            list-style: none;
+            margin: 30px 0;
+        }
+        
+        .feature-list li {
+            padding: 15px 0;
+            padding-left: 40px;
+            position: relative;
+            font-size: 19px;
+        }
+        
+        .feature-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--success-green);
+            font-weight: bold;
+            font-size: 28px;
+        }
+        
+        .package-total {
+            background: var(--primary-blue);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .package-total h4 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .package-total .total-price {
+            font-size: 64px;
+            font-weight: 900;
+            margin: 15px 0;
+        }
+        
+        .package-total .normal-total {
+            font-size: 24px;
+            text-decoration: line-through;
+            opacity: 0.85;
+        }
+        
+        /* Steps Section */
+        .steps {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+        
+        .step-card {
+            text-align: center;
+            padding: 35px;
+        }
+        
+        .step-number {
+            width: 70px;
+            height: 70px;
+            background: var(--accent-orange);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            font-weight: bold;
+            margin: 0 auto 25px;
+        }
+        
+        .step-card h3 {
+            font-size: 26px;
+            color: var(--primary-blue);
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .step-card p {
+            font-size: 17px;
+            color: #64748b;
+            margin-bottom: 15px;
+        }
+        
+        .step-benefit {
+            background: var(--light-bg);
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 15px;
+            color: var(--primary-blue);
+            font-weight: 700;
+        }
+        
+        /* Benefits Section */
+        .benefits {
+            padding: 80px 0;
+            background: var(--light-bg);
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .benefit-card {
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+        }
+        
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        
+        .benefit-card h3 {
+            font-size: 24px;
+            color: var(--primary-blue);
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .benefit-card p {
+            color: #64748b;
+            font-size: 17px;
+        }
+        
+        /* Testimonials Section */
+        .testimonials {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .testimonial-card {
+            background: var(--light-bg);
+            padding: 35px;
+            border-radius: 12px;
+            border-left: 5px solid var(--accent-orange);
+        }
+        
+        .testimonial-text {
+            font-size: 17px;
+            font-style: italic;
+            margin-bottom: 20px;
+            color: #334155;
+        }
+        
+        .testimonial-author {
+            font-weight: 700;
+            color: var(--primary-blue);
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+        
+        .testimonial-details {
+            font-size: 14px;
+            color: #64748b;
+            margin-bottom: 12px;
+        }
+        
+        .testimonial-result {
+            background: var(--success-green);
+            color: white;
+            padding: 8px 18px;
+            border-radius: 20px;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 700;
+        }
+        
+        /* Stats Section */
+        .stats {
+            background: var(--primary-blue);
+            color: white;
+            padding: 70px 0;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 50px;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 56px;
+            font-weight: 900;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            font-size: 18px;
+            opacity: 0.95;
+            font-weight: 600;
+        }
+        
+        /* FAQ Section */
+        .faq {
+            padding: 80px 0;
+            background: var(--light-bg);
+        }
+        
+        .faq-list {
+            max-width: 850px;
+            margin: 50px auto 0;
+        }
+        
+        .faq-item {
+            background: white;
+            padding: 28px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .faq-question {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary-blue);
+            margin-bottom: 12px;
+        }
+        
+        .faq-answer {
+            color: #64748b;
+            font-size: 17px;
+            line-height: 1.7;
+        }
+        
+        /* CTA Sections */
+        .cta-section {
+            background: linear-gradient(135deg, var(--accent-orange) 0%, #ff8533 100%);
+            color: white;
+            padding: 70px 0;
+            text-align: center;
+        }
+        
+        .cta-section h2 {
+            font-size: 52px;
+            margin-bottom: 25px;
+            font-weight: 800;
+        }
+        
+        .cta-section p {
+            font-size: 24px;
+            margin-bottom: 30px;
+            opacity: 0.95;
+            font-weight: 600;
+        }
+        
+        .cta-features {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 35px 0;
+            flex-wrap: wrap;
+        }
+        
+        .cta-feature {
+            background: rgba(255,255,255,0.25);
+            padding: 15px 30px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        
+        /* Form Section */
+        .form-section {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .form-container {
+            max-width: 650px;
+            margin: 50px auto 0;
+            background: var(--light-bg);
+            padding: 45px;
+            border-radius: 16px;
+            box-shadow: 0 15px 50px rgba(0,0,0,0.15);
+            border: 3px solid var(--accent-orange);
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: 700;
+            color: var(--dark-text);
+            font-size: 16px;
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 14px 18px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 17px;
+            font-family: inherit;
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+            box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.1);
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        .form-submit {
+            width: 100%;
+            padding: 22px;
+            font-size: 22px;
+            font-weight: bold;
+            background: var(--accent-orange);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .form-submit:hover {
+            background: #ff8533;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 102, 0, 0.4);
+        }
+        
+        .form-note {
+            font-size: 14px;
+            color: #64748b;
+            margin-top: 20px;
+            text-align: center;
+        }
+        
+        .contact-options {
+            text-align: center;
+            margin-top: 35px;
+            padding-top: 35px;
+            border-top: 2px solid #e2e8f0;
+        }
+        
+        .contact-options p {
+            margin-bottom: 18px;
+            color: var(--dark-text);
+            font-weight: 700;
+            font-size: 18px;
+        }
+        
+        .contact-links {
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .contact-links a {
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 18px;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--dark-text);
+            color: white;
+            padding: 60px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 45px;
+            margin-bottom: 35px;
+        }
+        
+        .footer-section h3 {
+            margin-bottom: 18px;
+            color: var(--accent-orange);
+            font-size: 20px;
+            font-weight: 700;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+        }
+        
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-section a {
+            color: #cbd5e1;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .footer-section a:hover {
+            color: var(--accent-orange);
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid #475569;
+            padding-top: 25px;
+            text-align: center;
+            color: #94a3b8;
+            font-size: 14px;
+        }
+        
+        /* Floating CTA */
+        .floating-cta {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            z-index: 1000;
+            display: none;
+        }
+        
+        .floating-cta.show {
+            display: block;
+            animation: slideUp 0.5s ease;
+        }
+        
+        @keyframes slideUp {
+            from {
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 38px;
+            }
+            
+            .hero p {
+                font-size: 20px;
+            }
+            
+            .cta-button {
+                display: block;
+                margin: 12px 0;
+                font-size: 18px;
+                padding: 18px 30px;
+            }
+            
+            .cta-button-secondary {
+                margin-left: 0;
+            }
+            
+            .value-comparison {
+                grid-template-columns: 1fr;
+            }
+            
+            .section-header h2 {
+                font-size: 36px;
+            }
+            
+            .pricing-card {
+                padding: 35px 25px;
+            }
+            
+            .steps-grid,
+            .benefits-grid,
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .total-value .huge-price {
+                font-size: 52px;
+            }
+            
+            .price-main {
+                font-size: 56px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Canberra Tutoring</div>
+                <div class="trust-badge">✓ Trusted by 500+ Canberra families</div>
+                <div class="header-cta">
+                    <a href="tel:1300668103" class="phone-number">📞 1300 668 103</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="limited-badge">🔥 LIMITED TERM 1 FLASH SALE - SAVE $374 TODAY!</div>
+                <h1>Save $374 on Primary Maths Tutoring</h1>
+                <p style="font-size: 32px; font-weight: 700; margin-bottom: 15px;">Was $979 → Now Just $605</p>
+                <p style="font-size: 26px; font-weight: 600;">Plus FREE $99 Assessment Included!</p>
+                
+                <div class="hero-cta-group">
+                    <a href="#form" class="cta-button">CLAIM MY $374 SAVINGS NOW →</a>
+                    <a href="tel:1300668103" class="cta-button cta-button-secondary">Or Call: 1300 668 103</a>
+                </div>
+                
+                <p class="urgency-text">⚡ TERM 1 ONLY • Limited Spots Available • Offer Ends Soon!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition Box -->
+    <div class="container">
+        <div class="value-box">
+            <h2 style="text-align: center; color: var(--primary-blue); font-size: 40px; margin-bottom: 30px; font-weight: 800;">💰 Here's EXACTLY What You Save:</h2>
+            
+            <div class="value-comparison">
+                <div class="value-item">
+                    <h3>Per Lesson Price</h3>
+                    <div>
+                        <span class="old-price">$80</span>
+                        <span class="new-price">$55</span>
+                    </div>
+                    <div class="savings-badge">SAVE $25 EVERY LESSON!</div>
+                </div>
+                
+                <div class="value-item">
+                    <h3>Assessment Fee</h3>
+                    <div>
+                        <span class="old-price">$99</span>
+                        <span class="new-price">$0</span>
+                    </div>
+                    <div class="savings-badge">100% FREE - SAVE $99!</div>
+                </div>
+                
+                <div class="value-item">
+                    <h3>Total Package</h3>
+                    <div>
+                        <span class="old-price">$979</span>
+                        <span class="new-price">$605</span>
+                    </div>
+                    <div class="savings-badge">MASSIVE $374 SAVINGS!</div>
+                </div>
+            </div>
+            
+            <div class="total-value">
+                <h2>🎯 YOUR TOTAL INVESTMENT</h2>
+                <p style="font-size: 20px; margin-bottom: 10px; font-weight: 600;">(11 Lessons + FREE $99 Assessment)</p>
+                <div>
+                    <span class="huge-price">$605</span>
+                    <span class="normal-value">Regular: $979</span>
+                </div>
+                <p style="margin-top: 25px; font-weight: bold; color: var(--success-green); font-size: 28px;">✓ YOU SAVE $374 RIGHT NOW!</p>
+                <a href="#form" class="cta-button" style="margin-top: 25px; font-size: 24px; padding: 22px 50px;">GRAB THIS DEAL - SAVE $374 →</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Special Term 1 Offer</h2>
+                <p>Everything your child needs to excel in Primary Maths</p>
+            </div>
+            
+            <div class="pricing-card">
+                <div class="best-value-badge">🔥 BEST VALUE - SAVE $374</div>
+                
+                <div class="pricing-header">
+                    <h3>11 Tutoring Sessions</h3>
+                </div>
+                
+                <div class="price-display">
+                    <div class="price-main">$55</div>
+                    <div class="price-detail">per session (normally $80)</div>
+                </div>
+                
+                <div class="pricing-comparison">
+                    <p style="font-size: 24px; font-weight: bold; color: var(--primary-blue); margin-bottom: 15px;">🔥 PRICE BREAKDOWN:</p>
+                    <p style="font-size: 20px; margin-top: 15px;"><strong>NORMAL PRICING:</strong></p>
+                    <p style="font-size: 18px;">11 sessions × $80 = <span style="text-decoration: line-through; color: var(--urgent-red); font-size: 22px; font-weight: 700;">$880</span></p>
+                    <p style="font-size: 18px;">Assessment Fee = <span style="text-decoration: line-through; color: var(--urgent-red); font-size: 22px; font-weight: 700;">$99</span></p>
+                    <p style="margin-top: 20px; font-size: 26px; font-weight: bold;">Normal Total: <span style="text-decoration: line-through; color: var(--urgent-red);">$979</span></p>
+                    <p style="margin-top: 20px; font-size: 32px; font-weight: bold; color: var(--success-green);">YOUR PRICE: ONLY $605!</p>
+                    <p style="font-size: 24px; font-weight: bold; color: var(--accent-orange); margin-top: 15px;">💰 THAT'S $374 IN YOUR POCKET!</p>
+                </div>
+                
+                <ul class="feature-list">
+                    <li><strong>FREE Assessment (Worth $99)</strong> - Fully Included</li>
+                    <li>Personalized 1-on-1 sessions tailored to your child</li>
+                    <li>Perfect tutor match for your child's learning style</li>
+                    <li>Detailed lesson notes after every session</li>
+                    <li>Progress tracking with measurable results</li>
+                    <li>Flexible scheduling (after-school & weekends)</li>
+                    <li>Full 60 minutes per session</li>
+                </ul>
+                
+                <div class="package-total">
+                    <h4>🎁 COMPLETE TERM 1 PACKAGE</h4>
+                    <div class="total-price">$605</div>
+                    <div class="normal-total">Normally: $979</div>
+                    <p style="margin-top: 20px; font-size: 24px; background: rgba(255,255,255,0.2); padding: 20px; border-radius: 10px;">
+                        ✓ FREE $99 Assessment Included<br>
+                        ✓ Save $25 Per Session<br>
+                        ✓ <strong>Total Savings: $374</strong>
+                    </p>
+                </div>
+                
+                <a href="#form" class="cta-button" style="width: 100%; text-align: center; margin-top: 25px; font-size: 24px; padding: 22px;">LOCK IN $605 PRICE - SAVE $374 NOW →</a>
+                <p style="text-align: center; margin-top: 20px; color: var(--urgent-red); font-weight: bold; font-size: 18px;">⚠️ TERM 1 ONLY • Regular $80/session pricing returns after this!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Simple Steps -->
+    <section class="steps">
+        <div class="container">
+            <div class="section-header">
+                <h2>3 Simple Steps to Success</h2>
+                <p>We make it easy for you and your child</p>
+            </div>
+            
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Free Assessment</h3>
+                    <p>We identify exactly where your child needs support—no guessing, no generic plans. A personalized roadmap from day one.</p>
+                    <div class="step-benefit">Worth $99 - Yours 100% FREE</div>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Perfect Tutor Match</h3>
+                    <p>We pair your child with an experienced tutor who clicks with their personality and learning style.</p>
+                    <div class="step-benefit">Tailored for maximum results</div>
+                </div>
+                
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Watch Progress Build</h3>
+                    <p>Weekly sessions with detailed updates so you always see how your child is improving.</p>
+                    <div class="step-benefit">Confidence grows week by week</div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 60px;">
+                <a href="#form" class="cta-button" style="font-size: 24px; padding: 22px 50px;">YES! SAVE $374 - BOOK FREE ASSESSMENT →</a>
+                <p style="margin-top: 20px; font-size: 18px; color: #64748b; font-weight: 600;">⏰ Limited spots • Don't miss this $374 saving!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <h2>What's Included</h2>
+                <p>Everything your child needs to build real maths confidence</p>
+            </div>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h3>📋 Custom Learning Plan</h3>
+                    <p>A personalized roadmap addressing your child's specific gaps and goals—built just for them.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <h3>👨‍🏫 Expert Tutor Match</h3>
+                    <p>We pair your child with a patient, qualified tutor who connects with their personality.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <h3>📝 Detailed Lesson Notes</h3>
+                    <p>After each session, you'll know exactly what was covered and what to practice at home.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <h3>📊 Progress Tracking</h3>
+                    <p>See real improvements with regular updates and measurable learning milestones.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <h3>🤝 Patient, Caring Support</h3>
+                    <p>No rushing, no pressure—just calm, encouraging guidance at your child's own pace.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <h3>📅 Flexible Scheduling</h3>
+                    <p>Sessions that work with your family's schedule, including after-school and weekends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Real Results from Real Families</h2>
+                <p>Join 500+ Canberra families who've seen the transformation</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Finally, a tutor who explains things in a way my child actually understands. She now raises her hand in class instead of hiding at the back."</p>
+                    <div class="testimonial-author">James L.</div>
+                    <div class="testimonial-details">Parent of Year 5 student</div>
+                    <div class="testimonial-result">Confidence transformed</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"My daughter went from dreading maths to actually asking to do extra practice! The tutors are incredibly patient and really understand how kids learn."</p>
+                    <div class="testimonial-author">Sarah M.</div>
+                    <div class="testimonial-details">Parent of Year 3 student</div>
+                    <div class="testimonial-result">2 grade levels improvement</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"I was so tired of the nightly homework battles. Within weeks, my son could work through problems on his own. The stress in our house has completely changed."</p>
+                    <div class="testimonial-author">David K.</div>
+                    <div class="testimonial-details">Parent of Year 4 student</div>
+                    <div class="testimonial-result">Homework time cut in half</div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"The assessment showed us exactly where the gaps were, and the weekly check-ins meant we always knew what was happening. No surprises, just steady progress."</p>
+                    <div class="testimonial-author">Michelle T.</div>
+                    <div class="testimonial-details">Parent of Year 2 student</div>
+                    <div class="testimonial-result">From C to A in one term</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Happy Families</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number">4.9★</div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number">93%</div>
+                    <div class="stat-label">See Grade Improvement</div>
+                </div>
+                
+                <div class="stat-item">
+                    <div class="stat-number">8+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Don't Pay $979... Pay Just $605!</h2>
+            <p style="font-size: 28px; font-weight: 700;">That's $374 Back In Your Pocket + FREE $99 Assessment</p>
+            
+            <div class="cta-features">
+                <div class="cta-feature">✓ Was $80/session → Now $55</div>
+                <div class="cta-feature">✓ Was $99 Assessment → Now FREE</div>
+                <div class="cta-feature">✓ Total Savings: $374!</div>
+            </div>
+            
+            <a href="#form" class="cta-button" style="font-size: 26px; padding: 24px 55px; box-shadow: 0 10px 30px rgba(0,0,0,0.4);">CLAIM $374 SAVINGS + FREE ASSESSMENT NOW →</a>
+            <p style="margin-top: 30px; font-size: 20px; font-weight: bold; background: rgba(255,255,255,0.25); display: inline-block; padding: 15px 35px; border-radius: 30px;">⚡ TERM 1 2026 ONLY • Regular $80/session pricing returns after!</p>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Everything parents ask before getting started</p>
+            </div>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">How do I know if my child actually needs tutoring?</div>
+                    <div class="faq-answer">Our FREE assessment (worth $99, yours free this term) will show exactly where your child stands. If they're struggling with homework, falling behind in class, or losing confidence in maths, tutoring can help build a strong foundation.</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">What if my child has tried tutoring before and it didn't work?</div>
+                    <div class="faq-answer">Every child learns differently. We match your child with a tutor who suits their personality and learning style, and create a custom plan based on their specific needs—not a one-size-fits-all approach.</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">How quickly will I see results?</div>
+                    <div class="faq-answer">Most parents notice improved confidence within 2-3 weeks. Grade improvements typically show within 4-6 weeks of consistent sessions. We provide regular progress updates so you always know how your child is tracking.</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">What if we need to cancel or reschedule a session?</div>
+                    <div class="faq-answer">We understand life gets busy. Just give us 24 hours notice and we'll reschedule at no charge. Flexibility is built into our service.</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Are the tutors experienced with young children?</div>
+                    <div class="faq-answer">Absolutely. All our tutors are qualified, background-checked, and experienced in teaching primary-aged children. We specifically select tutors who are patient, encouraging, and skilled at making maths fun.</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">Do you follow the Australian Curriculum?</div>
+                    <div class="faq-answer">Yes, all our lessons align with the Australian Curriculum for Mathematics. We can also support specific school programs or work ahead if your child needs an extra challenge.</div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">What happens in the free assessment?</div>
+                    <div class="faq-answer">The assessment (normally $99) identifies your child's current level, learning gaps, and strengths. It takes about 45-60 minutes and gives us everything we need to create their personalised learning plan. There's no obligation to continue.</div>
+                </div>
+                
+                <div class="faq-item" style="border: 4px solid var(--accent-orange); background: #fef3c7;">
+                    <div class="faq-question" style="font-size: 22px; color: var(--urgent-red);">⚡ Is this $55/session price really only for Term 1?</div>
+                    <div class="faq-answer" style="font-size: 18px; color: var(--dark-text); font-weight: 600;"><strong>YES - This is a limited promotional offer!</strong> Our regular price is $80/session, and assessments are normally $99. This special Term 1 offer saves you $374 total on the 11-session package ($275 on sessions + $99 free assessment). Once Term 1 spots fill or the promotion ends, all new families will pay our standard $80/session rate + $99 assessment fee. Book now to lock in these massive savings!</div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 60px;">
+                <p style="font-size: 24px; margin-bottom: 25px; font-weight: 700; color: var(--primary-blue);"><strong>Ready to save $374?</strong></p>
+                <a href="tel:1300668103" class="cta-button" style="font-size: 22px; padding: 20px 45px;">CALL NOW: 1300 668 103 →</a>
+                <p style="margin-top: 20px; font-size: 17px; color: #64748b;">Or <a href="#form" style="color: var(--primary-blue); font-weight: 700; text-decoration: underline;">fill out the form below</a> to lock in your $374 savings</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section" id="form">
+        <div class="container">
+            <div class="section-header">
+                <h2>🎁 Claim Your $374 Savings Now</h2>
+                <p style="font-size: 24px; font-weight: 700; color: var(--accent-orange);">Limited Term 1 Spots • Regular $979 Pricing Returns Soon!</p>
+            </div>
+            
+            <div class="form-container">
+                <form>
+                    <div class="form-group">
+                        <label for="parent-name">Your Name *</label>
+                        <input type="text" id="parent-name" name="parent-name" required placeholder="Your name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="child-name">Child's Name *</label>
+                        <input type="text" id="child-name" name="child-name" required placeholder="Child's name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="you@example.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="0412 345 678">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="year-level">Child's Year Level *</label>
+                        <select id="year-level" name="year-level" required>
+                            <option value="">Select year level</option>
+                            <option value="k">Kindergarten</option>
+                            <option value="1">Year 1</option>
+                            <option value="2">Year 2</option>
+                            <option value="3">Year 3</option>
+                            <option value="4">Year 4</option>
+                            <option value="5">Year 5</option>
+                            <option value="6">Year 6</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Tell us about your child's challenges or goals (optional)</label>
+                        <textarea id="message" name="message" placeholder="e.g., Struggling with times tables, needs confidence boost, wants to get ahead..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="form-submit">YES! LOCK IN $605 PRICE - SAVE $374 NOW →</button>
+                    
+                    <p class="form-note">By submitting, you agree to our <a href="#" style="color: var(--primary-blue); font-weight: 700;">Terms and Privacy Policy</a></p>
+                    
+                    <div style="background: #fef3c7; padding: 25px; border-radius: 12px; margin-top: 25px; border: 3px solid var(--accent-orange);">
+                        <p style="text-align: center; font-weight: bold; color: var(--dark-text); font-size: 20px;">
+                            ⚡ THIS OFFER WON'T LAST LONG!<br>
+                            <span style="font-size: 17px; font-weight: 600; display: block; margin-top: 10px;">Once Term 1 spots fill, we return to regular $80/session + $99 assessment</span>
+                        </p>
+                    </div>
+                </form>
+                
+                <div class="contact-options">
+                    <p>Prefer to reach out directly?</p>
+                    <div class="contact-links">
+                        <a href="tel:1300668103">📞 1300 668 103</a>
+                        <a href="mailto:admin@canberratutoring.com.au">✉️ admin@canberratutoring.com.au</a>
+                    </div>
+                    <p style="margin-top: 25px; font-size: 15px; color: #64748b;">✓ 100% free, no obligation • ✓ We'll call within 24 hours • ✓ Your details are secure</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Canberra Tutoring</h3>
+                    <p>Helping Canberra kids build confidence in maths and English since 2017.</p>
+                    <p style="margin-top: 25px; font-size: 18px;"><strong>Primary Maths Special: $55/session</strong><br>(Term 1 2026 Limited Offer - Save $374)</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>📞 1300 668 103</li>
+                        <li>✉️ <a href="mailto:admin@canberratutoring.com.au">admin@canberratutoring.com.au</a></li>
+                        <li>📍 Canberra, ACT</li>
+                        <li>🕒 Mon-Sat: 9am - 7pm</li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Our Programs</h3>
+                    <ul>
+                        <li><a href="#">Primary Maths (Current Offer)</a></li>
+                        <li><a href="#">Primary English</a></li>
+                        <li><a href="#">High School Maths</a></li>
+                        <li><a href="#">High School English</a></li>
+                        <li><a href="#">College Maths</a></li>
+                        <li><a href="#">College English</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p><strong>Terms & Conditions:</strong> The $55 per session rate applies to Term 1 2026 promotional package of 11 sessions only. <strong style="color: var(--accent-orange);">Regular pricing: $80/session + $99 assessment.</strong> Free assessment ($99 value) is a one-time offer for new families during Term 1 promotion. Sessions are 60 minutes each. 24-hour cancellation notice required for rescheduling. Promotional prices valid for Term 1 2026 bookings only. After promotion ends, standard pricing applies. All tutoring sessions conducted by qualified, background-checked tutors. Results may vary based on individual student circumstances.</p>
+                <p style="margin-top: 25px;">© 2026 Canberra Tutoring. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating CTA (appears on scroll) -->
+    <div class="floating-cta" id="floatingCta">
+        <a href="#form" class="cta-button" style="box-shadow: 0 12px 35px rgba(0,0,0,0.5); font-size: 20px; padding: 18px 40px;">🔥 SAVE $374 NOW - Limited Spots! →</a>
+    </div>
+
+    <script>
+        // Show floating CTA on scroll
+        window.addEventListener('scroll', function() {
+            const floatingCta = document.getElementById('floatingCta');
+            if (window.scrollY > 800) {
+                floatingCta.classList.add('show');
+            } else {
+                floatingCta.classList.remove('show');
+            }
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
